@@ -1,0 +1,17 @@
+name: Set Up Codespace
+
+on:
+  create:
+    branches:
+      - 42
+
+jobs:
+  create-codespace:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@v2
+
+      - name: Create Codespace
+        uses: see7e/42-codespace-builder@v1

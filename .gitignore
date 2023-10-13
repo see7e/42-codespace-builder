@@ -1,0 +1,6 @@
+# Ignore built and compiled files
+node_modules/
+dist/
+out/
+.vscode/
+.DS_Store

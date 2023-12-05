@@ -1,6 +1,8 @@
 ---
-title: 42-codespace-builde
-tags: studies, programação
+title: 42-codespace-builder
+tags:
+  - studies
+  - programação
 use: Documentation, DevOps, GitHub Actions, Docker, Dockerfile, GitHub, GitHub Actions
 languages: YAML, Dockerfile, Shell
 dependences: GitHub, Docker, GitHub Actions
@@ -23,6 +25,14 @@ dependences: GitHub, Docker, GitHub Actions
 </details>
 
 ---
+
+> [!INFO]
+> `UPDATE`: After start wworking on Docker, I've discovered that with the instalation of Docker Desktop, it also install the WSL (Windows Subsystem for Linux) and the Ubuntu 20.04 LTS. So you can work with a Linux system running native on Windows. Without worrying with the usage limit of GH Codespaces.
+>
+> `TIP`: The path to the Windows files is `/mnt/c/` and the path to the Linux files is `/home/`. So you can access the Windows files from the Linux system and vice-versa.
+> There's a very good video about it:
+> - [Windows Subsystem For Linux | WSL Explained](https://www.youtube.com/watch?v=kZ2SNBY2FPw)
+
 
 # 42-codespace-builder Documentation
 
